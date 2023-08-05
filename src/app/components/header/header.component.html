@@ -1,0 +1,18 @@
+<header>
+  <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-item-center d-flex">
+      <i style="font-size: 30px" class="fa-solid fa-truck-fast"></i>&nbsp;
+      <strong style="font-size: 25px">E-cart</strong>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Product" />
+      </div>
+      <span class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i
+      ></span>
+    </div>
+    <button routerLink="cart" class="btn btn-primary">
+      <i style="font-size: 30px" class="fa-solid fa-cart-plus"></i>
+      <div class="badge bg-danger">{{ totalNumber }}</div>
+    </button>
+  </div>
+</header>
